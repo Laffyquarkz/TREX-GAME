@@ -71,7 +71,7 @@ function setup() {
 
   
   trex.setCollider("circle",0,0,40);
-  trex.debug = true
+  
   
   score = 0;
   
@@ -223,4 +223,3 @@ function spawnClouds() {
     cloudsGroup.add(cloud);
   }
 }
-
